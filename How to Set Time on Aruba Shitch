@@ -1,0 +1,6 @@
+SYNTEX
+time [hh:mm [:ss]] [mm/dd/ [yy] yy ]
+
+# Example #
+Switch(config)# time 13:24 04/24/2024
+Wed Apr 24 13:24:34 2024
