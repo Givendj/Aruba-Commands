@@ -4,3 +4,13 @@ time [hh:mm [:ss]] [mm/dd/ [yy] yy ]
 # Example #
 Switch(config)# time 13:24 04/24/2024
 Wed Apr 24 13:24:34 2024
+
+
+#Aruba 6000#
+6000(config)# show clock
+Wed Apr 24 14:16:11 UTC 2024
+System is configured for timezone : UTC
+
+#UPDATE#
+6000(config)# clock time 14:20
+6000(config)# wr mem
